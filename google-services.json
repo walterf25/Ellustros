@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "1062381616869",
+    "project_id": "strom-ergonomics",
+    "storage_bucket": "strom-ergonomics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062381616869:android:baad6c93b230629d719e0c",
+        "android_client_info": {
+          "package_name": "com.strom.ergonomics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062381616869-kaijoe938c25ndl3hgfl8vfbdd82vibn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.strom.ergonomics",
+            "certificate_hash": "57f809eed14b79d87b65262d26acfcd88d7d1faa"
+          }
+        },
+        {
+          "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzhE5jzAaXxGUPRVvhB6nzY4l0cZEsjjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062381616869-9nl06n3h630ml9j4m7fm2t0d5r0u1v3c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "strom.ergo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062381616869:android:9c2688a725e36156719e0c",
+        "android_client_info": {
+          "package_name": "com.strom.lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062381616869-cqipr5hsspung38vfpj8la116bpgklhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.strom.lite",
+            "certificate_hash": "57f809eed14b79d87b65262d26acfcd88d7d1faa"
+          }
+        },
+        {
+          "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzhE5jzAaXxGUPRVvhB6nzY4l0cZEsjjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062381616869-9nl06n3h630ml9j4m7fm2t0d5r0u1v3c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "strom.ergo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062381616869:android:3361f7f47c60b4ac719e0c",
+        "android_client_info": {
+          "package_name": "ergonimics.strom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062381616869-hc1nsq167po7r6bgl6aeine990oh68c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ergonimics.strom",
+            "certificate_hash": "57f809eed14b79d87b65262d26acfcd88d7d1faa"
+          }
+        },
+        {
+          "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzhE5jzAaXxGUPRVvhB6nzY4l0cZEsjjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062381616869-pg5fh61dhu4cq79ba33muoebqqcs967d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062381616869-9nl06n3h630ml9j4m7fm2t0d5r0u1v3c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "strom.ergo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

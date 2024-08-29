@@ -1,0 +1,339 @@
+﻿Build1=Default,com.strom.ergonomics,default
+Build2=Lite,com.strom.lite,Lite
+File1=BLEDevices.bal
+File10=contactinfo.bal
+File11=elbowheightmeasurement.bal
+File12=ellipse 11@3x.png
+File13=Ellustros_Final_Logo.png
+File14=experiencestart.bal
+File15=eyeheightlayout.bal
+File16=final strom logo.png
+File17=front_pic.png
+File18=goodjob.png
+File19=group 7191@3x.png
+File2=buttocksheightmeasurement.bal
+File20=group 7281@2x.png
+File21=help_highlighted.png
+File22=help_normal.png
+File23=helpmenu.bal
+File24=home_highlighted.png
+File25=home_normal.png
+File26=horizontalarrow.bal
+File27=kneeheightmeasurement.bal
+File28=layout.bal
+File29=lumbarheightmeasurement.bal
+File3=camera_icon.png
+File30=main.bal
+File31=mainmenu.bal
+File32=manualsettings.bal
+File33=measurements_v4.json
+File34=measurementsdone.bal
+File35=measuring.bal
+File36=measuringhips.bal
+File37=mymeasurements.bal
+File38=neutral2.png
+File39=optimalchair.bal
+File4=cera pro black italic.otf
+File40=overlay.bal
+File41=overlay2.bal
+File42=overlay3.bal
+File43=pairdevice.bal
+File44=passwordreset.bal
+File45=perch2.png
+File46=personalinfo.bal
+File47=picturetake.bal
+File48=pinchange.bal
+File49=playtutorial.bal
+File5=cera pro black.otf
+File50=profile_highlighted.png
+File51=profile_normal.png
+File52=profile2.bal
+File53=recline2.png
+File54=recommendations.bal
+File55=rectangle 60@2x.png
+File56=SeatingRecommendations.bal
+File57=sexlayout.bal
+File58=shoeheight.bal
+File59=shopping_highlighted.png
+File6=cera pro bold.otf
+File60=shopping_normal.png
+File61=shouldermeasurements.bal
+File62=side_pic.png
+File63=sideheightmeasurement.bal
+File64=signup.bal
+File65=spinner2-1s-200px.gif
+File66=splash.bal
+File67=standing.json
+File68=StandingRecommendations.bal
+File69=success.png
+File7=cera pro light.otf
+File70=tutorialsteps.bal
+File71=verticalarrow.bal
+File8=cera pro medium.otf
+File9=cera pro regular italic.otf
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=apngview
+Library10=customprogressdialog
+Library11=dynamictoast
+Library12=firebaseanalytics
+Library13=firebaseauth
+Library14=ime
+Library15=json
+Library16=keyvaluestore2
+Library17=lottieview
+Library18=okhttputils2
+Library19=phone
+Library2=asonboarding
+Library20=reflection
+Library21=runtimepermissions
+Library22=sensorextender
+Library23=viewsex
+Library24=websocket
+Library25=webviewextras
+Library26=xcustomlistview
+Library27=xui
+Library28=xui views
+Library29=appcompat
+Library3=b4xgifview
+Library4=b4xpages
+Library5=bitmapcreator
+Library6=ble2
+Library7=byteconverter
+Library8=camera2
+Library9=core
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'''CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~~\n~SetApplicationAttribute(android:theme,"@style/AppTheme")~\n~~\n~CreateResource(values, style.xml, <?xml version="1.0" encoding="utf-8"?>~\n~<resources>~\n~<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~    <item name="android:windowNoTitle">true</item>~\n~    <item name="android:windowActionBar">false</item>~\n~    <item name="android:windowFullscreen">true</item>~\n~    <item name="android:windowContentOverlay">@null</item>~\n~</style>~\n~</resources>)~\n~~\n~CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~SetActivityAttribute(main, android:windowSoftInputMode, adjustResize|stateHidden)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~AddPermission(android.permission.BLUETOOTH_SCAN)~\n~AddPermission(android.permission.BLUETOOTH_CONNECT)~\n~~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Firebase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Crashlytics)~\n~CreateResourceFromFile(Macro, FirebaseAuth.FirebaseAuth)~\n~~\n~AddManifestText(~\n~<uses-permission~\n~  android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~  android:maxSdkVersion="19" />~\n~)~\n~~\n~'******* segmentation~\n~AddApplicationText(~\n~<meta-data~\n~          android:name="com.google.mlkit.vision.DEPENDENCIES"~\n~          android:value="subject_segment" />~\n~)~\n~'*****************~\n~~\n~~\n~'*********  ML kit (note that there is an extra meta-data in this one for subject segmentation) **********~\n~AddApplicationText(~\n~ <activity~\n~            android:name="com.google.mlkit.vision.documentscanner.internal.GmsDocumentScanningDelegateActivity"~\n~            android:exported="false"~\n~            android:screenOrientation="portrait"~\n~            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"~\n~             >~\n~        </activity>~\n~		 <provider~\n~            android:name="com.google.mlkit.common.internal.MlKitInitProvider"~\n~            android:authorities="${applicationId}.mlkitinitprovider"~\n~            android:exported="false"~\n~            android:initOrder="99" />~\n~~\n~        <service~\n~            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"~\n~            android:directBootAware="true"~\n~            android:exported="false"~\n~             >~\n~            <meta-data~\n~                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"~\n~                android:value="com.google.firebase.components.ComponentRegistrar" />~\n~			 <meta-data~\n~                android:name="com.google.firebase.components:com.google.mlkit.vision.segmentation.subject.internal.SubjectSegmentationRegistrar"~\n~                android:value="com.google.firebase.components.ComponentRegistrar" />~\n~        </service>~\n~)~\n~
+Module1=ASBottomMenu
+Module10=CLVSwipe
+Module11=Common
+Module12=CompositeFilter
+Module13=ContactInfo
+Module14=DBTransactions
+Module15=DraggableView
+Module16=FieldFilter
+Module17=FirebaseAuthREST
+Module18=FirebaseAuthRESTHelper
+Module19=Firestore
+Module2=ASViewPager
+Module20=FirestoreUtils
+Module21=helpMenu
+Module22=HorizontalLine
+Module23=ListenerRegistration
+Module24=MainMenu
+Module25=ManualSettings
+Module26=MeasurementsDone
+Module27=OnboardingSteps
+Module28=PairDevice
+Module29=PathBuilder
+Module3=B4XBubbleSeeker
+Module30=PersonalInfo
+Module31=PictureScreen
+Module32=PlayTutorial
+Module33=Profile2
+Module34=Query
+Module35=Recommendations
+Module36=ResetPassword
+Module37=Seating
+Module38=Segmentation
+Module39=SignUp
+Module4=B4XMainPage
+Module40=Standing
+Module41=Starter
+Module42=StartExperience
+Module43=StromService
+Module44=Summary
+Module45=UnaryFilter
+Module46=VerticalLine
+Module5=BLEConnection
+Module6=BLEReceiver
+Module7=CamEx2
+Module8=ChairOptimal
+Module9=ClsWheel
+NumberOfFiles=71
+NumberOfLibraries=29
+NumberOfModules=46
+Version=13
+@EndOfDesignText@
+#Region  Project Attributes 
+	'''#ApplicationLabel: STRÖM Ergonomics
+	#ApplicationLabel: ELLUSTRÖS
+	#if default
+	#VersionCode: 18
+	#VersionName: 3.9.7
+	#Else
+	#VersionCode: 2
+	#VersionName: 1.0.9
+	#End If
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	#BridgeLogger: True
+#End Region
+
+#Extends : androidx.appcompat.app.AppCompatActivity
+
+'''#CustomBuildAction: 1, c:\windows\system32\robocopy.exe, ..\lite ..\ 
+'''google-services.json
+#if default
+	#CustomBuildAction: 1, c:\windows\system32\cmd.exe, /c copy ..\google-services\google-services.json ..\google-services.json
+#Else If lite
+	#CustomBuildAction: 1, c:\windows\system32\cmd.exe, /c copy ..\google-services\google-services-lite.json ..\google-services.json
+#End If
+
+#Region  Activity Attributes 
+	#FullScreen: True
+	#IncludeTitle: False
+#End Region
+
+#AdditionalJar: com.google.firebase:firebase-crashlytics
+#AdditionalJar: androidx.arch.core:core-runtime
+#AdditionalJar: com.google.android.gms:play-services-mlkit-subject-segmentation
+'''#MultiDex: True
+#DebuggerForceStandardAssets: true
+'''#AdditionalRes: ../res
+'''#AdditionalRes: ./Resource
+#AdditionalJar: lottie_6.5.0.aar
+'''#AdditionalJar: okio-3.9.0.jar
+'''#AdditionalJar: okio-jvm-3.9.0.jar
+'''#AdditionalJar: annotations-13.0.jar
+#BridgeLogger: True
+'''#AdditionalJar: mysql-connector-java-5.1.34-bin
+
+#IgnoreWarnings: 2
+
+'''#AdditionalJar: mysql-connector-java-5.1.34-bin
+
+'#BridgeLogger: True
+
+Sub Process_Globals
+	Public ActionBarHomeClicked As Boolean
+End Sub
+
+Sub Globals
+	Private ime As IME
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	ime.Initialize("IME")
+	ime.AddHeightChangedEvent
+	Dim pm As B4XPagesManager
+	pm.Initialize(Activity)
+	
+	'''Wait For (Starter.Connect) Complete (Success As Boolean)
+'''	Log("connected: " & Success)
+End Sub
+
+'Template version: B4A-1.01
+#Region Delegates
+
+Sub Activity_ActionBarHomeClick
+	ActionBarHomeClicked = True
+	B4XPages.Delegate.Activity_ActionBarHomeClick
+	ActionBarHomeClicked = False
+
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	Return B4XPages.Delegate.Activity_KeyPress(KeyCode)
+End Sub
+
+Sub Activity_Resume
+	B4XPages.Delegate.Activity_Resume
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Sub Activity_PermissionResult (Permission As String, Result As Boolean)
+	B4XPages.Delegate.Activity_PermissionResult(Permission, Result)
+End Sub
+
+Sub Create_Menu (Menu As Object)
+	B4XPages.Delegate.Create_Menu(Menu)
+End Sub
+
+Sub IME_HeightChanged (NewHeight As Int, OldHeight As Int)
+	B4XPages.GetManager.RaiseEvent(B4XPages.GetManager.GetTopPage, "IME_HeightChanged", Array(NewHeight, OldHeight))
+End Sub
+
+#if Java
+public boolean _onCreateOptionsMenu(android.view.Menu menu) {
+	 processBA.raiseEvent(null, "create_menu", menu);
+	 return true;
+	
+}
+#End If
+#End Region
+
+'Program code should go into B4XMainPage and other pages.
